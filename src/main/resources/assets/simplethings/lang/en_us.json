@@ -1,4 +1,6 @@
 {
   "item.simplethings.ruby": "Ruby Gem",
-  "item.simplethings.ruby_sword": "Ruby Sword"
+  "item.simplethings.ruby_sword": "Ruby Sword",
+
+  "block.simplethings.ruby_block": "Block of Ruby"
 }

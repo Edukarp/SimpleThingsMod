@@ -1,6 +1,7 @@
 package net.edukarp.simpleThings;
 
 import com.mojang.logging.LogUtils;
+import net.edukarp.simpleThings.block.ModBlocks;
 import net.edukarp.simpleThings.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -38,6 +39,7 @@ public class simpleThings
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -57,6 +59,9 @@ public class simpleThings
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT){
             event.accept(ModItems.RUBY_SWORD);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.RUBY_BLOCK);
         }
     }
 
