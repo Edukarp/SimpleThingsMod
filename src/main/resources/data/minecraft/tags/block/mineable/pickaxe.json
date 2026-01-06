@@ -3,6 +3,7 @@
   "values": [
     "simplethings:ruby_block",
     "simplethings:ruby_ore",
-    "simplethings:ruby_deepslate_ore"
+    "simplethings:ruby_deepslate_ore",
+    "simplethings:magic_block"
   ]
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "simplethings:ruby_block"
+    "simplethings:ruby_block",
+    "simplethings:magic_block"
   ]
 }

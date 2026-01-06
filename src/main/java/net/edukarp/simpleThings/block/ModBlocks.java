@@ -1,5 +1,6 @@
 package net.edukarp.simpleThings.block;
 
+import net.edukarp.simpleThings.block.custom.MagicBlock;
 import net.edukarp.simpleThings.item.ModItems;
 import net.edukarp.simpleThings.simpleThings;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -33,6 +34,8 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(1, 3), BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
