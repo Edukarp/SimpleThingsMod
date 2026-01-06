@@ -2,6 +2,7 @@ package net.edukarp.simpleThings;
 
 import com.mojang.logging.LogUtils;
 import net.edukarp.simpleThings.block.ModBlocks;
+import net.edukarp.simpleThings.item.ModCreativeModeTabs;
 import net.edukarp.simpleThings.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,8 @@ public class simpleThings
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
