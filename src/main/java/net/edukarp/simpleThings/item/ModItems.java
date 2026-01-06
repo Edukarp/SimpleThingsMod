@@ -1,6 +1,7 @@
 package net.edukarp.simpleThings.item;
 
 import net.edukarp.simpleThings.item.custom.ChiselItem;
+import net.edukarp.simpleThings.item.custom.FuelItem;
 import net.edukarp.simpleThings.simpleThings;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,12 @@ public class ModItems {
 
    public static final RegistryObject<Item> RUBY_CHISEL = ITEMS.register("ruby_chisel",
            () -> new ChiselItem(new Item.Properties().durability(32)));
+
+   public static final RegistryObject<Item> TURNIP = ITEMS.register("turnip",
+           () -> new Item(new Item.Properties().food(ModFoodProperties.TURNIP)));
+
+   public static final RegistryObject<Item> EMPOWERED_COAL = ITEMS.register("empowered_coal",
+           () -> new FuelItem(new Item.Properties(), 3200));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                                 output.accept(ModBlocks.RUBY_DEEPSLATE_ORE.get());
                                 output.accept(ModItems.RUBY_CHISEL.get());
                                 output.accept(ModBlocks.MAGIC_BLOCK.get());
+                                output.accept(ModItems.TURNIP.get());
+                                output.accept(ModItems.EMPOWERED_COAL.get());
                             })
                             .build());
 

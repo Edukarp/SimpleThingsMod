@@ -2,12 +2,13 @@
   "item.simplethings.ruby": "Ruby Gem",
   "item.simplethings.ruby_sword": "Ruby Sword",
   "item.simplethings.ruby_chisel": "Ruby Chisel",
+  "item.simplethings.turnip": "Turnip",
+  "item.simplethings.empowered_coal": "Empowered Coal",
 
   "block.simplethings.ruby_block": "Block of Ruby",
   "block.simplethings.ruby_ore": "Ruby Ore",
   "block.simplethings.ruby_deepslate_ore": "Ruby Deepslate Ore",
   "block.simplethings.magic_block": "Magic Block",
-
 
   "creativetab.simplethings.ruby_items": "Simple Things"
 }
