@@ -1,6 +1,7 @@
 package net.edukarp.simpleThings.block.custom;
 
 import net.edukarp.simpleThings.item.ModItems;
+import net.edukarp.simpleThings.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -35,7 +36,7 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity){
-            if(itemEntity.getItem().getItem() == Items.DIAMOND) {
+            if(isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(ModItems.RUBY.get(), itemEntity.getItem().getCount()));
             }
             if(itemEntity.getItem().getItem() == Items.RABBIT_FOOT) {
@@ -45,6 +46,10 @@ public class MagicBlock extends Block {
         }
 
         super.stepOn(pLevel, pPos, pState, pEntity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
