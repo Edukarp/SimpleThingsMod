@@ -10,5 +10,9 @@
   "block.simplethings.ruby_deepslate_ore": "Ruby Deepslate Ore",
   "block.simplethings.magic_block": "Magic Block",
 
-  "creativetab.simplethings.ruby_items": "Simple Things"
+  "creativetab.simplethings.ruby_items": "Simple Things",
+
+  "tooltip.simplethings.magic_block.tooltip": "This Block is §dMagical§r",
+  "tooltip.simplethings.ruby_chisel.shift_down": "This item transform §7Stones§r in §7Bricks§r",
+  "tooltip.simplethings.ruby_chisel": "Press §eShift§r for more information"
 }
