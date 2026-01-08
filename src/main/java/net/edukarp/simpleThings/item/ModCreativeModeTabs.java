@@ -29,6 +29,16 @@ public class ModCreativeModeTabs {
                                 output.accept(ModBlocks.MAGIC_BLOCK.get());
                                 output.accept(ModItems.TURNIP.get());
                                 output.accept(ModItems.EMPOWERED_COAL.get());
+
+                                output.accept(ModBlocks.RUBY_STAIRS.get());
+                                output.accept(ModBlocks.RUBY_BUTTON.get());
+                                output.accept(ModBlocks.RUBY_DOOR.get());
+                                output.accept(ModBlocks.RUBY_FENCE.get());
+                                output.accept(ModBlocks.RUBY_FENCE_GATE.get());
+                                output.accept(ModBlocks.RUBY_SLAB.get());
+                                output.accept(ModBlocks.RUBY_TRAPDOOR.get());
+                                output.accept(ModBlocks.RUBY_WALL.get());
+                                output.accept(ModBlocks.RUBY_PRESSURE_PLATE.get());
                             })
                             .build());
 

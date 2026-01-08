@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "simplethings:ruby"
+    }
+  },
+  "pattern": [
+    "R",
+    "R",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simplethings:ruby_sword"
+  }
+}

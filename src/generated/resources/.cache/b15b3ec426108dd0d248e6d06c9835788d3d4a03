@@ -1,0 +1,7 @@
+// 1.21	2026-01-08T00:05:17.5796754	Tags for minecraft:block mod id simplethings
+a06f0e873ea832e365000ef7d20c4ed8c32709a1 data/minecraft/tags/block/fences.json
+45122b3415fc2942d56060df057075a4c100cf52 data/minecraft/tags/block/fence_gates.json
+1065136724f62d722d3884956322ccf91a42bde1 data/minecraft/tags/block/mineable/pickaxe.json
+155f9f3f2ded4a8512de9cea98447f7d0309aa86 data/minecraft/tags/block/needs_diamond_tool.json
+b9b4fdcf43c630f33d44e5ccfcff2ea492214d3d data/minecraft/tags/block/needs_iron_tool.json
+28b7685522eac9ed669ba0997eed4aa909c0df64 data/minecraft/tags/block/walls.json

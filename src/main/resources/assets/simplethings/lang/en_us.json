@@ -10,6 +10,15 @@
   "block.simplethings.ruby_deepslate_ore": "Ruby Deepslate Ore",
   "block.simplethings.magic_block": "Magic Block",
 
+  "block.simplethings.ruby_stairs": "Ruby Stairs",
+  "block.simplethings.ruby_slab": "Ruby Slab",
+  "block.simplethings.ruby_button": "Ruby Button",
+  "block.simplethings.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.simplethings.ruby_fence": "Ruby Fence",
+  "block.simplethings.ruby_fence_gate": "Ruby Fence Gate",
+  "block.simplethings.ruby_door": "Ruby Door",
+  "block.simplethings.ruby_trapdoor": "Ruby Trapdoor",
+
   "creativetab.simplethings.ruby_items": "Simple Things",
 
   "tooltip.simplethings.magic_block.tooltip": "This Block is §dMagical§r",

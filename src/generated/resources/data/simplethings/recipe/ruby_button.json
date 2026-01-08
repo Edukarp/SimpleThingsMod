@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "ruby",
+  "ingredients": [
+    {
+      "item": "simplethings:ruby"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "simplethings:ruby_button"
+  }
+}
